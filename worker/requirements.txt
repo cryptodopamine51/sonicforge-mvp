@@ -1,0 +1,8 @@
+redis
+requests
+python-dotenv
+# Add these for the real model:
+# torch
+# torchaudio
+# audiocraft
+# boto3
