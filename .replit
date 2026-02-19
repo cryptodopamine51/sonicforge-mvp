@@ -16,6 +16,7 @@ PORT = "5000"
 deploymentTarget = "autoscale"
 run = ["node", "./dist/index.cjs"]
 build = ["npm", "run", "build"]
+publicDir = "dist/public"
 
 [workflows]
 runButton = "Project"
@@ -37,3 +38,8 @@ author = "agent"
 task = "shell.exec"
 args = "npm run dev"
 waitForPort = 5000
+
+[userenv]
+
+[userenv.shared]
+database-suno-mvp = "AyO7icSDM51w4oO2f6oE3z2Ah6wMDoBv"
