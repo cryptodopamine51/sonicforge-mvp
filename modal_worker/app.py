@@ -17,6 +17,7 @@ image = (
     .pip_install(
         "fastapi==0.115.0",
         "pydantic==2.8.2",
+        "soundfile==0.12.1",
         "uvicorn==0.30.6",
         # MusicGen lives in audiocraft
         "audiocraft==1.3.0",
